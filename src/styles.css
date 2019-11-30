@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap");
+.container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: 20px;
+  height: 20px;
+  border: 1px solid rgb(165, 165, 165);
+}
+
+.btn-cont {
+  align-self: center;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  height: 100vh;
+  flex-wrap: wrap;
+}
+
+button {
+  height: 50px;
+  width: 200px;
+  /* left: 100px; */
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 30px;
+}
+.start {
+  background: rgba(8, 238, 8, 0.568);
+}
+.stop {
+  background: #ef050080;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(30, 30px);
+  flex-basis: 60%;
+  padding: 10px;
+}
+.title > div {
+  margin-top: 90px;
+}
+
+.clear {
+  background: rgb(230, 185, 118);
+}
+
+.sims {
+  background: rgb(47, 110, 247);
+}
